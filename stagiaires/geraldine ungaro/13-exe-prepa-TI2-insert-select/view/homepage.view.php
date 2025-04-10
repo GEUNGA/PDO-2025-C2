@@ -13,6 +13,15 @@
 <h2>Laissez-nous un message</h2>
 <pre>
     Le formulaire se trouve ici
+    <form action="" method="post">
+    <label for="name">Nom</label>
+    <input type="text" name="name" id="name" required>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" required>
+    <label for="message">Message</label>
+    <textarea name="message" id="message" rows="10" required></textarea>
+    <button type="submit">Envoyer</button>
+</form>
 </pre>
 <hr>
 <pre>

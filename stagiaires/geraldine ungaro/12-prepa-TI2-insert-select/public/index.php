@@ -6,7 +6,7 @@
  */
 
 # chargement des constantes de connexion en mode prod
-require_once "../config.php";
+require_once "../config.dev.php";
 # chargement du modèle (fonctions)
 require_once "../model/MessagesModel.php";
 
